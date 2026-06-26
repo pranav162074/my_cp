@@ -12,6 +12,9 @@ Output:
     {3,2},
     {5,1}
 }
+
+YOU CAN ALSO GET Number of Divisors using Prime Factorization:
+IF n = p1^a × p2^b × p3^c, then number of divisors = (a+1)(b+1)(c+1)
 */
 
 vector<pair<int,int>> primeFactorization(int n) {
